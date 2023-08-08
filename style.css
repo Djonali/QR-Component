@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&family=Roboto&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  background-color: hsl(212, 45%, 89%);
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.qr-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.container {
+  width: 250px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 100%);
+}
+.container p:nth-child(1) {
+  font-weight: bold;
+}
+.container p:nth-child(2) {
+  color: hsl(220, 15%, 55%);
+  font-size: 12px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */
